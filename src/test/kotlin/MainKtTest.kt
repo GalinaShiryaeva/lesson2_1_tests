@@ -203,7 +203,7 @@ class MainKtTest {
         // arrange
         val cardType = CardTypes.VISA.name
         val paymentAmount = 3_599u // в копейках
-        val expectedResult = -1.0
+        val expectedResult = 0.0
 
         // act
         val result = calculateCommission(
